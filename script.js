@@ -541,11 +541,164 @@
 // ifie function ap isko bhar pas nahi kr sakte ho,
 
 
-(function  () {
-    const password = "mansish";
-    console.log(password);
+// (function  () {
+//     const password = "mansish";
+//     console.log(password);
     
-}) ();
+// }) ();
+
+
+// arays
+
+// let arr = [1,2,3,4,5,6];
+
+// arr[2] = 12;
+// console.log(arr);
+
+//////////////////////
 
 
 
+// let arr = [1,2,3,4,5,6];
+// arr.push(5000);
+//ye last me vall add karega
+
+
+
+// let arr = [1,2,3,4,5,6];
+// arr.pop();
+// ye lask ki value hataega
+
+
+// let arr = [1,2,3,4,5,6];
+// arr.shift();
+// ye staring value hata dega
+
+
+
+// let arr = [1,2,3,4,5,6];
+// arr.unshift(66);
+//ye starting me value add krta hai
+
+
+// let arr = [1,2,3,4,5,6];
+// arr.splice(2,2)
+//ye bich se value hata hai
+//ye purne arr koi hi chage krta hai
+
+
+// let arr = [1,2,3,4,5,6];
+// let arr2 = arr.slice(1,4);
+// kaha tak hatana hai,
+//lha tak chai ye ye dono para mert pas hoege
+//or ye new arr return krrega
+
+
+// let arr = [1,2,3,4,5,6];
+// arr.reverse();
+//ye number rever krta hai
+
+
+
+// let arr = [11,2,43,4,15,6];
+// let manis = arr.sort(function(a,b){
+//    return a-b;
+// });
+//ye assanding or desanding me kaam aega
+
+
+/////////5///////////////////////////////////////////
+
+
+
+// let arr = [11,6,5,56,99,77,4];
+
+// arr.forEach(function (val){
+//     console.log(val);
+    
+// });
+//ye purane arr me hi value dikha derta hai
+
+
+//map
+//ye tab bana hai jab purane arr k data ko leke naya data add krna hai ya 
+
+//map dikte hi sat ek naya arr banao;
+
+
+// let arr = [11,6,5,56,99,77,4];
+
+
+// let arr2 = arr.map(function (val) {
+//     return val + 5;
+// })
+
+
+// let arr = [1,2,3,4,5];
+// let arr2 = arr.filter(function (val) {
+//     if(val > 3) return true;
+// })
+
+
+//sum of all arr
+// let arr = [1,2,3,4,5];
+// let ans = arr.reduce(function(acc, val){
+
+//     return acc + val
+// },0)
+
+
+// let arr = [1,2,3,4,1,5];
+
+// let va = arr.find(function(val) {
+//     return val < 2;
+// })
+
+
+// let arr = [1,2,3,4,5];
+// let arr2 = arr.some(function(val) {
+//     return val > 3;
+// })
+
+
+// let arr = [1,2,3,4,5];
+// let arr2 = arr.every(function(val) {
+//     return val > 0;
+// })
+
+
+
+
+
+
+//destructing;
+
+// let arr = [1,2,3,4,5];
+// let [a,b, , d] = arr;
+
+
+//array copy and sprade oprator;
+// let arr = [1,2,3,4,5];
+// let newar = [...arr]
+
+
+
+
+//add arr thigs in center
+
+// let arr =["mango","apple"];
+// arr.splice(1,0,"red","vaishali");
+
+// let arr = [1,2,3,4,5,6];
+// let newarr = arr.slice(2,4);
+
+
+let names = ["manish", "vaishali", "neha", "chiya"];
+ names.sort().reverse();
+
+
+ let arr = [2,22,4,5,66,88];
+
+ let vaishali = arr.filter((val)=>{
+    return val > 10;
+ });

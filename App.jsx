@@ -1,28 +1,23 @@
-
-import Categories from './Categories';
-import Footer from './Footer';
-import Header from './Header';
-import HotDeal from './HotDeal';
-import Slider from './Slider';
-import "../src/Css/app.css"
+import {useDispatch, useSelector} from "react-redux";
 
 const App = () => {
+
+  const dispatch = useDispatch();
+  const count = useSelector((state)=>state.counter.value);
 
 
 
   return (
-
-
-
     <div>
-         <Header/>
-         <Slider/>
-         <Categories/>
-         <h2 class="animated-h2" >कृपया सभी प्रकार के आटे के आर्डर 07 बजे के पहले करें ||</h2>
-         <HotDeal/>
-         <Footer/>
-      
-   
+      <h2>{count}</h2>
+
+      <button onClick={()=>{
+
+      }}>increment</button>
+
+      <button onClick={()=>{
+
+      }}>decrement</button>
     </div>
   );
 };
